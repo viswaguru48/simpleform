@@ -1,0 +1,20 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    position: relative;
+}
+.data input, .checks input{
+    border: 2px solid rgb(11, 135, 207) ;
+}
+
+.data .verifyicon1 i,.data .verifyicon2 i, .data .verifyicon3 i, .data .verifyicon4 i{
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    color: #00df00;
+    display: none;
+}
